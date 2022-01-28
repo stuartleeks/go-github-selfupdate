@@ -1,6 +1,9 @@
 Self-Update Mechanism for Go Commands Using GitHub
 ==================================================
 
+
+
+
 [![GoDoc Badge][]][GoDoc]
 [![TravisCI Status][]][TravisCI]
 [![AppVeyor Status][]][AppVeyor]
@@ -41,7 +44,11 @@ And small wrapper CLIs are provided:
 [go-github-selfupdate]: https://github.com/rhysd/go-github-selfupdate
 [GitHub Releases API]: https://developer.github.com/v3/repos/releases/
 
+## Fork notes
 
+This fork adds the following changes compare to  https://github.com/rhysd/go-github-selfupdate:
+
+- [Add `NoGitUpdater`](https://github.com/rhysd/go-github-selfupdate/pull/47)
 
 ## Try Out Example
 
